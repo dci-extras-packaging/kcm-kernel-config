@@ -1,4 +1,4 @@
-kernel-kcm (0-1) unstable; urgency=medium
+kcm-kernel-config (0-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
