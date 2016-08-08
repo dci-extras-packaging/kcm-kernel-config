@@ -1,0 +1,17 @@
+Source: kernel-kcm
+Section: unknown
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>=9),
+               libkf5config-dev,
+               libqapt-dev,
+               pkg-kde-tools,
+               qtbase5-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/plasma-extensions/kernel-kcm
+
+Package: kde-config-kernel
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KCM Module to select kernels
+ KDE systemsettings module to choose a kernel
